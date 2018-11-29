@@ -24,5 +24,5 @@ checkout([$class: 'GitSCM', branches: [[name: '*/'+'master']],
 doGenerateSubmoduleConfigurations: false, extensions: [[$class:
 'RelativeTargetDirectory'], [$class: 'MessageExclusion',
 excludeMessage: '(?s).*JENKINS_IGNORE.*']], submoduleCfg: [],
-userRemoteConfigs: [[url:https:"//github.com/jessicasae/WorkingWithGroovyFiles"]]])
+userRemoteConfigs: [[url:"https://github.com/jessicasae/WorkingWithGroovyFiles"]]])
 }
